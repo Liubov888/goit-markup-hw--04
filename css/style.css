@@ -104,9 +104,11 @@ section {
     align-items: center;
     text-decoration: none;
 }
+
 .icon-contact {
     margin-right: 10px;
 }
+
 .link-mail {
     font-family:var(--main-font);
     color: var(--second-color);
@@ -146,7 +148,6 @@ section {
 
 .hero {
    background: #2F303A;
-    
     padding-top: 200px;
     padding-bottom: 200px; 
     margin-top: 0px;
@@ -161,7 +162,6 @@ background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../images/photo-main.jpg);
-       
 }
 
 .hero-title {
@@ -223,8 +223,8 @@ background-image: linear-gradient(
     background-color: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
-    
-}
+    }
+
 .text:not(:last-child) {
     margin-right: 30px;
 }
@@ -280,8 +280,7 @@ background-image: linear-gradient(
     display: flex;
     justify-content: space-between;
     background: #F5F4FA;
-    
-}
+    }
 
 .our {
     background: #ffffff;
@@ -331,17 +330,14 @@ background-image: linear-gradient(
     
 .client:not(:last-child) {
         margin-right: 30px;
-   
-   }
+      }
    .networks {
     width: 40px;
     height: 40px;
     align-items: center;
     justify-content: center;
-    
     padding-top: 16px;
-    
-    }
+}
 
 .types-clients {
     display: flex;
@@ -349,15 +345,15 @@ background-image: linear-gradient(
     align-items: center;
 }
 
-    .client {
-    width: 170px;
-    height: 92px;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    list-style: none;
-    margin-top: 50px;
-    }
+.client {
+width: 170px;
+height: 92px;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+list-style: none;
+margin-top: 50px;
+}
 
 .our-clients {
     font-weight: 700;
