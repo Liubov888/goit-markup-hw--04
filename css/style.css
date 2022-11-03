@@ -126,6 +126,7 @@ section {
     line-height: 1.14;
     letter-spacing: 0.02em;
     margin-right: 20px;
+    background: url(../images/symbol-defs.svg);
  }
 .link-mail:hover,
 .link-mail:focus {
