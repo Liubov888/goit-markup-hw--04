@@ -126,7 +126,8 @@ section {
     line-height: 1.14;
     letter-spacing: 0.02em;
     margin-right: 20px;
-    background: url(../images/symbol-defs.svg);
+    background: url(../icommon1/svg/phone2.svg);
+    background: url(../icommon1/svg/envtlope1.svg);
  }
 .link-mail:hover,
 .link-mail:focus {
