@@ -126,17 +126,20 @@ section {
     line-height: 1.14;
     letter-spacing: 0.02em;
     margin-right: 20px;
-    background: url(../images/symbol-defs.svg#icon-phone2);
-    background: url(../images/symbol-defs.svg#icon-envelope1);
+   
  }
 .link-mail:hover,
 .link-mail:focus {
         color: var(--second-color);
 }
-.link-mail :hover .icon-mail {
-    fill: var(--second-color);
+
+.icon-mail {
+    color:#757575
 }
 
+.link-mail:hover .icon-mail {
+    fill: currentColor;
+}
 .link-tel {
     font-family: var(--main-font);
     color: var(--first-color);
@@ -153,7 +156,7 @@ section {
     color: var(--second-color);
 }
 
-.link-tel:hover .icon-mail {
+.link-tel:hover .icon-tel {
     fill: var(--second-color);
 }
 .icon-contact {
