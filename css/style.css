@@ -51,7 +51,6 @@ section {
     padding: 24px 0;
     text-decoration: none;
     list-style: none;
-      
 }
 
 .logo {
@@ -62,12 +61,12 @@ section {
     letter-spacing: var(--main-letter-spacing);
     text-decoration-line: none;
     list-style: none;
-    color: var(--second-color);     
+    color: var(--second-color);  
+    margin-right: 93px;
 }
 
 .logo-header {
     color: var(--main-color);
-    margin-right: 93px;
 }
 
 .header-nav {
@@ -133,13 +132,6 @@ section {
         color: var(--second-color);
 }
 
-.icon-mail {
-    color:#757575
-}
-
-.link-mail:hover .icon-mail {
-    fill: currentColor;
-}
 .link-tel {
     font-family: var(--main-font);
     color: var(--first-color);
@@ -156,16 +148,11 @@ section {
     color: var(--second-color);
 }
 
-.link-tel:hover .icon-tel {
-    fill: var(--second-color);
-}
 .icon-contact {
     background-position: center;
 }
 
- 
-
-/*hero*/
+ /*hero*/
 
 .hero {
    background: #2F303A;
@@ -356,23 +343,35 @@ background-image: linear-gradient(
     height: 44px;
     align-items: center;
     justify-content: center;
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
     background-position: center;
-    border-radius: 50%;
+    border-radius: 50%;}
+
+ .networks:not(:last-child) {
     margin-right: 10px;
+   }
+
+   .networks:hover,
+   .networks:focus {
+       background-color: #2196F3;
 }
 
-.networks:hover,
-.networks:focus {
-   background-color: #2196F3;
-}
-
-.networks-icon {
+.social-network-icon {
+    display: flex;
+    width: 44px;
+    height: 44px;
     align-items: center;
     justify-content: center;
     background-position: center;
-    margin-top: 10px;}
-
+ }
+   
+.networks-icon {
+       fill: #AFB1B8;
+   }
+.social-network-icon:hover .networks-icon,
+.social-network-icon:focus .networks-icon {
+    fill:whitesmoke;
+    }
 
 .our-clients {
     font-weight: 700;
@@ -382,26 +381,40 @@ background-image: linear-gradient(
 }
 
 .types-clients {
-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 50px;
 }
 
 .client {
-display: flex;
-width: 170px;
-height: 92px;
-align-items: center;
-justify-content: center;
-text-decoration: none;
-list-style: none;
-margin-top: 50px;
-border: 1px solid #AFB1B8;
-border-radius: 4px;
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
 }
 
-.client:hover {
+.client:hover,
+.client:focus {
     border-color: #2196F3;
 }
 
+.icon-logo-1 {
+    fill: #AFB1B8;
+}
+
+.client:hover .client-icon,
+.client:focus .client-icon  {
+    fill: #2196F3;
+}
 
 
  /*portfolio*/
@@ -416,6 +429,13 @@ border-radius: 4px;
 
  .class-button:not(:last-child) {
     margin-right: 8px;
+    }
+
+.class-button:hover,
+.class-button:focus {
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
     }
 
 .progect-button-first, .progect-button-second {
@@ -434,13 +454,10 @@ border-radius: 4px;
 .progect-button-first {
     color: var(--accent-color);
     background: #2196F3;
-    border: 1px solid
-#F5F4FA;
+    border: 1px solid #F5F4FA;
     padding: 6px 25px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 1px 2px rgba(0, 0, 0, 0.08),
-         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .progect-button-first:hover,
 .progect-button-first:focus {
     color: var(--first-color);
@@ -456,7 +473,7 @@ border-radius: 4px;
    }
 .progect-button-second:hover,
 .progect-button-second:focus {
-    color: var(--first-color);
+    color: var(--accent-color);
     background-color: #2196F3;
 }
 
@@ -470,9 +487,10 @@ border-radius: 4px;
     padding-top: 50px;
 }
 
-.gallery {
+.gallery:hover {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 .card {
     display: block;
     padding: 20px 24px;
@@ -511,8 +529,6 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     align-items: center;
     text-decoration: none;
     list-style: none;
-        
-        
 }
 .logo-footer {
     color: var(--accent-color);
@@ -557,14 +573,14 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
         line-height: 16px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-         color: #FFFFFF;
+        color: #FFFFFF;
 }
 
 .sociable-icons {
     display: flex;
     text-decoration-line: none;
     list-style: none;
-   
+    margin-top: 20px;
    }
  .sociable-icons:not(:last-child) {
      margin-right: 10px;
@@ -574,20 +590,23 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     width: 44px;
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
-  padding: 10px;
-  border-radius: 50px;
-    margin-right: 10px;
-    margin-top: 20px;
-    justify-content: center;
     align-items: center;
-    }
+    justify-content: center;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 20px 12px 12px 12px;
+    fill: #FFFFFF;
+}
             
 .network:hover,
 .network:focus {
     background-color: #2196F3;
-         }
+}
+
+.network .sociable-networks {
+    fill: #FFFFFF;
+}
 
  
-    
-
                  
