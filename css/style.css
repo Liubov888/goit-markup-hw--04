@@ -354,10 +354,16 @@ background-image: linear-gradient(
     margin-right: 10px;
 }
   
-   .networks:hover,
-   .networks:focus {
+   .networks:hover    {
     background-color: #2196F3;
 }
+
+  .social-network-icon:focus,
+  .social-network-icon:hover {
+      background-color: #2196F3;
+      border-color: #2196F3;
+      outline: none;
+      }
 
 .social-network-icon {
     display: flex;
@@ -367,6 +373,7 @@ background-image: linear-gradient(
     justify-content: center;
     background-position: center;
     color: #AFB1B8;
+    border-radius: 50%;
 }
    
 .networks-icon {
@@ -376,6 +383,7 @@ background-image: linear-gradient(
 .social-network-icon:hover .networks-icon,
 .social-network-icon:focus .networks-icon {
     fill: #FFFFFF;
+     
 }
 
 .our-clients {
@@ -423,6 +431,8 @@ background-image: linear-gradient(
 .client:hover,
 .client:focus {
     border-color: #2196F3;
+    outline: none;
+    
 }
 
 .client .client-icon {
