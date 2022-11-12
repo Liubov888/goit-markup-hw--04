@@ -352,12 +352,12 @@ background-image: linear-gradient(
     
  .networks:not(:last-child) {
     margin-right: 10px;
-   }
-
+}
+  
    .networks:hover,
    .networks:focus {
-       background-color: #2196F3;
-         }
+    background-color: #2196F3;
+}
 
 .social-network-icon {
     display: flex;
@@ -367,7 +367,7 @@ background-image: linear-gradient(
     justify-content: center;
     background-position: center;
     color: #AFB1B8;
- }
+}
    
 .networks-icon {
     fill: #AFB1B8;
@@ -376,7 +376,7 @@ background-image: linear-gradient(
 .social-network-icon:hover .networks-icon,
 .social-network-icon:focus .networks-icon {
     fill: #FFFFFF;
-    }
+}
 
 .our-clients {
     font-weight: 700;
@@ -411,7 +411,7 @@ background-image: linear-gradient(
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
-    border-radius: 1px;
+    border-radius: 4px;
     margin-right: 30px;
     align-items: center;
     justify-content: center;
@@ -423,7 +423,6 @@ background-image: linear-gradient(
 .client:hover,
 .client:focus {
     border-color: #2196F3;
-    background-color: #2196F3;
 }
 
 .client .client-icon {
@@ -432,7 +431,7 @@ background-image: linear-gradient(
 
 .client:hover .client-icon,
 .client:focus .client-icon  {
-    fill: #FFFFFF;
+    fill: #2196F3;
 }
 
  /*portfolio*/
@@ -544,7 +543,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 
 .footer-1-2 {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     text-decoration: none;
     list-style: none;
 }
